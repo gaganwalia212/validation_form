@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Slabo 27px', serif;
+}
+
+header{
+	margin: 2rem;
+}
+
+header img{
+	width: 10rem;
+	height: 10rem;
+}
+
+header h1{
+	margin: 2rem;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////*/
+
+main{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	width: 70rem;
+
+}
+main h3{
+	margin: 1rem;
+}
+main div{
+	border: solid white;
+	margin: 2rem;
+	position: relative;
+	font-size: 1.5rem;
+	height: 4rem;
+
+}
+.c1{
+
+	position: absolute;
+	left: 1rem;
+	margin: 1.5rem;
+}
+
+.c2{
+
+	position: absolute;
+	left: 13rem;
+	margin: 1.5rem;
+}
+
+.c3{
+
+	position: absolute;
+	left: 40rem;
+	margin: 1.5rem;
+}
+
+.c4{
+
+	position: absolute;
+	left: 53rem;
+	margin: 1.5rem;
+}
+.c2,.c4{
+	height: 2rem;
+	border-radius: 0.3rem;
+	border: none;
+	background: #F3F4DC;
+	padding: 0.5rem;
+	text-align: center;
+
+}
+
+button{
+	background: #00AF21;
+	color: white;
+	border-radius: 0.4rem;
+	border: none;
+	width: 6rem;
+	height: 3rem;
+	font-size: 1.3rem;
+}
+
+footer{
+	margin-top: 8rem;
+}
+
